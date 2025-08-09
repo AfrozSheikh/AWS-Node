@@ -1,0 +1,24 @@
+Install AWS Sdk for JS- aws-sdk/client
+AWS sdk for preSigned URL 
+
+public access nahi dena to preSigned url create karna for that user so it can access only by that user . 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
