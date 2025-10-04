@@ -1,0 +1,23 @@
+Amazon EC2 (Elastic Compute Cloud)
+EC2 is a virtual server in the cloud that you can use to run applications, host websites, or manage backend systems.
+It works just like a virtual machine (VM) on your laptop — but runs inside AWS’s global data centers.
+
+The term “Elastic” means you can instantly scale — launch or terminate servers as your needs grow or shrink.
+
+⚙️ Main Components
+Component	               Description
+Instance	               The virtual machine (VM) running on AWS
+AMI (Amazon Machine Image)  Pre-configured OS and software image (e.g., Ubuntu, Amazon Linux)
+Instance Type	            Defines hardware configuration – CPU, RAM (e.g., t2.micro, m5.large)
+EBS (Elastic Block Store)	Persistent storage attached to an EC2 instance (like a hard drive)
+Security Group	            Acts as a virtual firewall to control inbound and outbound traffic
+Key Pair (.pem)         	Secure SSH credentials used to log in to your instance
+Elastic IP	                Static public IP address for consistent remote access
+VPC/Subnet	                The virtual network environment where your EC2 runs
+
+🚀 Key Features                       Use
+Auto Scaling	                    Automatically adds or removes instances based on traffic or workload
+Elastic Load Balancer (ELB)     	Distributes incoming traffic across multiple EC2 instances
+CloudWatch	                        Monitors performance metrics like CPU usage and instance health
+Snapshots & AMIs	                Create backups or launch new instances from existing configurations
+EC2 Fleet / Launch Template        	Efficiently manage and deploy multiple instances at scale
